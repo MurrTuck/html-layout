@@ -1,47 +1,87 @@
 .pagebox {
+    margin: 0;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
+    /* background: yellow; */
+    padding: 5px;
 }
 
 .siteheader {
+    box-sizing: border-box;
     border: black;
     border-style: solid;
     height: 25vh;
-    width: 75%;
-    margin: 10px;
+    width: 95%;
+    margin: 10px auto;
     background-color: pink;
+    padding: 10px;
 }
 
 .purplebox {
-    height: 50%;
+    height: 75%;
     width: 35px;
     background-color: purple;
-    margin: 4px;
-    margin-top: 25%;
+    margin: 5px auto;
+    
+    /* margin-top: 10%; */
     display: inline-block;
 }
 
 .greenbox {
-    height: 50%;
-    width: 255px;
+    height: 100%;
+    width: 555px;
     background-color: green;
-    margin: 4px;
+    margin: 5px auto;
+    margin-left: 25px;
     display: inline-block;
 }
 
 .bluecircle {
-    height: 50%;
-    width: 255px;
+    height: 200px;
+    width: 200px;
     background-color: lightblue;
-    margin: 4px;
+    margin: 5px auto;
+    margin-left: 25px;
     display: inline-block;
     border-radius: 50%;
 }
 
 .maincontent {
+    box-sizing: border-box;
     border: black;
     border-style: dotted;
     height: 25vh;
-    margin: 10px;
+    width: 95%;
+    margin: 10px auto;
     background-color: plum;
+    padding: 10px;
+}
+
+.yellowblock {
+    height: 85%;
+    width: 95%;
+    margin: 10px auto;
+    background-color: lightyellow;
+    padding: 5px;
+    box-shadow: 5px 5px;
+}
+
+.sitefooter {
+    /* background-color: lime; */
+    box-sizing: border-box;
+    height: 35vh;
+    width: 50%;
+    margin: 0 auto;
+    border: grey;
+    border-style: solid;
+    border-width: 2px;
+    padding: 100px;
+}
+
+.h1 {
+    text-align: center;
+    /* padding: 10px; */
+    width: 100%;
+  color: navy;
+  letter-spacing: 10px;
 }
