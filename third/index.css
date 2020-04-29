@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.pagebox {
+    box-sizing: border-box;
+    margin: 1px auto;
+    height: 100vh;
+    width: 100vw;
+    /* border: lightgray;
+    border-style: solid; */
+    background-color: white;
+    
+}
+
+.siteheader {
+    box-sizing: border-box;
+    margin: 0px auto;
+    height: 15vh;
+    width: 100%;
+    /* border: lightgray;
+    border-style: solid; */
+    background-color: lightgray;
+    
+}
+
+.floaterbox {
+    margin: 10px auto;
+    margin-left: 10px;
+    height: 75%;
+    width: 100px;
+    /* border: dodgerblue;
+    border-style: solid; */
+    float: left;
+    background-color: dodgerblue;
+}
+
+.whitetext{
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 25vh;
+    width: 100%;
+    padding: 25px;
+    /* border: rgb(122, 255, 155); */
+    /* border-style: solid; */
+}
+
+.textholder {
+    margin: 10px auto;
+    text-align: left;
+    width: 50%;
+  letter-spacing: 1px;
+  font-family: 'Raleway';
+}
+
+.blue {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    /* border: dodgerblue;
+    border-style: solid; */
+    background-color: dodgerblue;
+    
+}
+.teal {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    /* border: lightseagreen;
+    border-style: solid; */
+    background-color: lightseagreen;
+    
+}
+
+.pukegreen {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    /* border: palegreen;
+    border-style: solid; */
+    background-color: palegreen;
+    
+}
+
+.sitefooter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+    /* border: yellow;
+    border-style: solid; */
+    background-color: yellow;
+    
+}
